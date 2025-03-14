@@ -9,8 +9,8 @@ The goal of this project is to analyze whether immigration levels correlate with
 To conduct this study, publicly available data will be collected from reliable sources:
 
 ### Immigration Data:
-- **World Bank**: Net migration rates, percentage of immigrants in the population ([Net migration | Data](https://data.worldbank.org/indicator/SM.POP.NETM))
 - **Our World in Data**: Total number of immigrants and emigrants ([Migration, Refugees, and Asylum Seekers Data Explorer](https://ourworldindata.org/migration))
+- **World Bank**: Net migration rates, percentage of immigrants in the population ([Net migration | Data](https://data.worldbank.org/indicator/SM.POP.NETM))
 - **United Nations Department of Economic and Social Affairs**: International migrant stock as a percentage of the total population by sex and by region, country, or area of destination, 1990-2024 ([International Migrant Stock | Population Division](https://www.un.org/development/desa/pd/content/international-migrant-stock))
 - **OECD Migration Data**: World Migration ([World Migration in Figures](https://www.oecd.org/els/mig/World-Migration-in-Figures.pdf))
 
