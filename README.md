@@ -1,63 +1,60 @@
-# Breaking the Myth: A Data-Driven Perspective of Immigration’s Impact on Criminal Activity
+# Immigration and Crime Analysis in Europe
 
-## Motivation
-Immigration is a key driver of demographic and economic change, yet its relationship with crime rates remains a topic of public debate and policy concern. While some argue that increased immigration contributes to higher crime rates, others suggest that immigrants are less likely to engage in criminal activity than native populations. 
+This project investigates the relationship between immigration and crime in European countries using data analysis and machine learning. It is structured in multiple phases to ensure both statistical rigor and predictive modeling depth.
 
-The goal of this project is to analyze whether immigration levels correlate with crime rates on both a global scale (cross-country comparison) and a historical scale (single-country analysis over time). By leveraging statistical and machine learning techniques, this study aims to uncover patterns and test common assumptions regarding immigration and crime.
+## 📁 Project Structure
 
-## Data Source
-To conduct this study, publicly available data will be collected from reliable sources:
+- `code.ipynb` – Jupyter notebook containing the complete analysis and modeling pipeline.
+- `requirements.txt` – Python dependencies for environment setup.
+- `README.md` – Project description and reproduction guide.
+- `DSA210_fnal_report.pdf` – Detailed report of analysis.
 
-### Immigration Data:
-- **Our World in Data**: Total number of immigrants and emigrants ([Migration, Refugees, and Asylum Seekers Data Explorer](https://ourworldindata.org/migration))
-- **World Bank**: Net migration rates, percentage of immigrants in the population ([Net migration | Data](https://data.worldbank.org/indicator/SM.POP.NETM))
-- **United Nations Department of Economic and Social Affairs**: International migrant stock as a percentage of the total population by sex and by region, country, or area of destination, 1990-2024 ([International Migrant Stock | Population Division](https://www.un.org/development/desa/pd/content/international-migrant-stock))
-- **OECD Migration Data**: World Migration ([World Migration in Figures](https://www.oecd.org/els/mig/World-Migration-in-Figures.pdf))
 
-### Crime Data:
-- **United Nations Office on Drugs and Crime (UNODC)**: Country-level crime rates and crime types ([dataUNODC](https://dataunodc.un.org/))
-- **World Crime Index Dataset**: Contains country-wise crime index data ([World Crime Index](https://www.numbeo.com/crime/))
-- **FBI Uniform Crime Reports**: For U.S.-specific analysis ([Crime Data Explorer](https://crime-data-explorer.app.cloud.gov/))
-- **Eurostat Crime Statistics**: For Europe ([Crime and Criminal Justice - Eurostat](https://ec.europa.eu/eurostat/web/crime))
+## 🚀 How to Reproduce
 
-### Additional Data for Enrichment:
-- **Economic indicators**: GDP per capita, unemployment rates
-- **Global Country Information Dataset**: Contains economic conditions, geographical location, population size, gasoline price, land area, etc. ([Global Country Information Dataset 2023](https://www.kaggle.com/datasets/))
+### 1. Clone the Repository or Download the Project
+```bash
+git clone <your-repo-url>
+cd <your-repo-folder>
+```
 
-## Data Collection Plan
-The dataset will be compiled in CSV format and preprocessed by:
-- Handling missing values
-- Normalizing immigration and crime data to account for population size
-- Aligning timeframes for meaningful comparisons
-- Standardizing crime categories across countries for consistency
+### 2. Install Dependencies
+```bash
+pip install -r requirements.txt
+```
 
-## Data Analysis
-The analysis will be conducted using Python with the following libraries:
-- **Pandas**, **NumPy**: Data manipulation and processing
-- **Matplotlib**, **Seaborn**: Data visualization
-- **Scikit-learn**: Machine learning and statistical analysis
+### 3. Run the Notebook
+Use Jupyter or VS Code to open and run `code.ipynb`.
 
-### Key Steps:
-1. **Exploratory Data Analysis (EDA):**
-   - Summary statistics of crime and immigration trends
-   - Correlation heatmaps and scatter plots to visualize relationships
-   - Country-wise ranking of crime rates and immigration percentages
+Or from the terminal:
+```bash
+jupyter notebook code.ipynb
+```
 
-2. **Hypothesis Testing:**
-   - **Null Hypothesis (H₀):** Immigration levels do not have a significant impact on crime rates.
-   - **Alternative Hypothesis (H₁):** There is a statistically significant relationship between immigration and crime rates.
-   - Statistical tests including Pearson correlation, t-tests, and ANOVA will be applied.
+## 📊 Project Highlights
 
-## Findings
-This project will aim to answer:
-- Do countries with higher immigration levels experience higher crime rates?
-- How does the relationship vary across different economic conditions?
-- Does the crime rate in a specific country (e.g., Turkey) change as immigration levels fluctuate over time?
+- Exploratory Data Analysis (EDA) on immigration and crime data
+- Statistical hypothesis testing and ANOVA
+- Inclusion of policy data using the Migrant Integration Policy Index (MIPEX)
+- Machine Learning models including Linear Regression, Decision Tree, Random Forest, XGBoost, and kNN
+- Principal Component Analysis (PCA) for dimensionality reduction
+- Correlation matrix and multicollinearity checks (e.g., VIF)
 
-## Limitations and Future Work
-- **Crime reporting accuracy** varies across countries, leading to potential biases.
-- **Correlation does not imply causation**; external factors such as law enforcement policies must be considered.
-- **Future research** could explore regional-level data within countries or consider specific crime categories (violent vs. non-violent).
+## 📚 Data Sources
 
-## Conclusion
-This project aims to provide data-driven insights into the relationship between immigration and crime, contributing to informed discussions on immigration policies and public safety strategies.
+- UN DESA International Migrant Stock
+- Eurostat Police-Recorded Crime Statistics
+- MIPEX (Migrant Integration Policy Index)
+- World Bank Economic Indicators
+
+## 🧪 Requirements
+
+All Python package requirements are listed in `requirements.txt`.  
+Install them with:
+```bash
+pip install -r requirements.txt
+```
+
+## 📬 Contact
+
+For any questions, feel free to open an issue or contact the project author.
