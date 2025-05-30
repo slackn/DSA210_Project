@@ -5,17 +5,18 @@ This project investigates the relationship between immigration and crime in Euro
 ## 📁 Project Structure
 
 - `code.ipynb` – Jupyter notebook containing the complete analysis and modeling pipeline.
+- `DSA210_fnal_report.pdf` – Detailed report of analysis.
 - `requirements.txt` – Python dependencies for environment setup.
 - `README.md` – Project description and reproduction guide.
-- `DSA210_fnal_report.pdf` – Detailed report of analysis.
+
 
 
 ## 🚀 How to Reproduce
 
 ### 1. Clone the Repository or Download the Project
 ```bash
-git clone <your-repo-url>
-cd <your-repo-folder>
+git clone https://github.com/slackn/DSA210_Project.git
+cd DSA210_Project
 ```
 
 ### 2. Install Dependencies
@@ -35,7 +36,6 @@ jupyter notebook code.ipynb
 
 - Exploratory Data Analysis (EDA) on immigration and crime data
 - Statistical hypothesis testing and ANOVA
-- Inclusion of policy data using the Migrant Integration Policy Index (MIPEX)
 - Machine Learning models including Linear Regression, Decision Tree, Random Forest, XGBoost, and kNN
 - Principal Component Analysis (PCA) for dimensionality reduction
 - Correlation matrix and multicollinearity checks (e.g., VIF)
